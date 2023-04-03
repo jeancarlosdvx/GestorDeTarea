@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+
+body{
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+i{
+  margin: 5px;
+}
+
+i:hover{
+  cursor: pointer;
+  
+}

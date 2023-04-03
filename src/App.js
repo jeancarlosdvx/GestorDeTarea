@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import TaskList from './components/container/TaskList';
+import LoginFormik from './components/pure/form/loginFormik';
+import OptionalRendel from './components/pure/form/optionalRender';
+
+
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <OptionalRendel/> */}
+      <div>
+        <LoginFormik />
+        {/* <TaskList/> */}
+      </div>
     </div>
+    
   );
 }
 
